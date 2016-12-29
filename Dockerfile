@@ -5,7 +5,7 @@ RUN apt-get update -y
 
 ENV PACKAGES "g++-4.9 libgflags-dev libsnappy-dev zlib1g-dev libbz2-dev"
 
-ENV CXX "g++-4.9
+ENV CXX "g++-4.9"
 ENV CC "gcc-4.9"
 ENV ROCKSDB_RELEASE "v4.13.5"
 ENV BUILD_DIR "/tmp/rocks_build_dir"
